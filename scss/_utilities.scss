@@ -336,7 +336,7 @@ $utilities: map-merge(
     "padding-x": (
       responsive: true,
       property: padding-right padding-left,
-      class: px,
+      class: ps,
       values: $spacers
     ),
     "padding-y": (
@@ -366,7 +366,7 @@ $utilities: map-merge(
     "padding-start": (
       responsive: true,
       property: padding-left,
-      class: pl,
+      class: ps,
       values: $spacers
     ),
     // Text
