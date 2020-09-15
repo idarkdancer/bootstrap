@@ -180,7 +180,7 @@ const getjQuery = () => {
   return null
 }
 
-const isRTL = (document.documentElement.dir === 'rtl')
+const isRTL = document.documentElement.dir === 'rtl'
 
 export {
   getjQuery,
